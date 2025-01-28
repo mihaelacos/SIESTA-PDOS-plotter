@@ -110,7 +110,7 @@ if shift==True:
     plt.xlabel("E-$\mathrm{{E_F}}$(eV)")
 else:
     plt.text(x=fermi,y=max(flattt)*1.3, s=f"$\mathrm{{E_F}}$ = {fermi} eV")
-    plt.vlines(x=0,ymin=0,ymax=np.max(flattt)*1.25, linestyles="dashed", linewidth=3, alpha=0.5, colors="yellow")
+    plt.vlines(x=fermi,ymin=0,ymax=np.max(flattt)*1.25, linestyles="dashed", linewidth=3, alpha=0.5, colors="yellow")
     plt.plot(energy,PDOS[:,num_orbitals*(atom-1):num_orbitals*(atom-1)+num_orbitals], label=labels[num_orbitals*(atom-1):num_orbitals*(atom-1)+num_orbitals],linewidth=0.9, alpha=1)
     plt.xlim(-28,28)
     plt.xlabel("E (eV)")
