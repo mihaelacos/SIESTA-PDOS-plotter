@@ -6,8 +6,9 @@ and doesn't require an installation, it can be run in a google colab notebook if
 PDOS file, such as:
 
 https://colab.research.google.com/drive/1_KECo0xihMZV4STIhfXnsimo7EwjG5Ub?usp=sharing
+(file -> upload file or drag& drop PDOS file -> use its name minus the .PDOS extension to plot the orbitals)
 
-This plotter only works for DZ-outputs (column format).
+Note: This plotter only works for DZ-outputs (column format).
 
 If ran locally, the needed packages are:
 
